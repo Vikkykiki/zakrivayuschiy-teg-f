@@ -1,1 +1,8 @@
-В этой папке будут храниться изображения для статей, а токже фавиконы и иконка для смартфона
+### Ссылка на репозиторий:
+
+https://github.com/Vikkykiki/zakrivayuschiy-teg-f
+
+# Проект "Закрывающий тег"
+
+## автор
+- Github - [Vikkykiki] (https://github.com/Vikkykiki)
