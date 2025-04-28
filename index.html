@@ -27,7 +27,7 @@
             <figure class="card__image-wrapper">
               <img
                 loading="lazy"
-                class="card__image filter-blur-and-sepia"
+                class="card__image filter_brightness"
                 src="./images/child_image.png"
                 alt="Малышка с клавиатурой"
               />
@@ -45,9 +45,15 @@
                 </p>
               </div>
               <div class="card__content-buttons">
-                <button type="button" class="card__icon-button">
+                <button type="button" class="card__icon-button" aria-hidden="true">
                   <svg
-                    class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+                    class="like-icon" 
+                    width="39" height="36" 
+                    viewBox="0 0 39 36" 
+                    fill="transparent" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    aria-hidden="true"
+                  >
                     <g clip-path="url(#clip0_0_1575)">
                       <g class="heart">
                         <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z"
@@ -78,10 +84,8 @@
             <figure class="card__image-wrapper">
               <img
                 loading="lazy"
-                class="card__image" src="./images/clear_list.png"
+                class="card__image filter_saturate" src="./images/clear_list.png"
                 alt="Девушка с табличкой"/>
-                <!-- фильтр с классом filter-opacity-and-blur можно применить как по заданию -->
-                
               <span aria-hidden="true" class="card__label">&lt;/HTML&gt;</span>
             </figure>
             <div class="card__content">
@@ -96,7 +100,7 @@
               </div>
 
               <div class="card__content-buttons">
-                <button type="button" class="card__icon-button">
+                <button type="button" class="card__icon-button" aria-hidden="true">
                   <svg
                     class="like-icon"
                     width="39"
@@ -104,6 +108,7 @@
                     viewBox="0 0 39 36"
                     fill="transparent"
                     xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
                   >
                     <g clip-path="url(#clip0_0_1575)">
                       <g class="heart">
@@ -142,9 +147,15 @@
           <article class="card">
             <h2 class="card__title">1 спринт: А если не получится?</h2>
             <figure class="card__image-wrapper">
-              <!-- фильтр с классом filter-brightness-and-grayscale можно применить как по заданию-->
-              <img loading="lazy" class="card__image" src="./images/fright.png" alt="Испуганная девушка" />
-              <span aria-hidden="true" class="card__label">&lt;CSS&gt;</span>
+              <img 
+                loading="lazy" 
+                class="card__image filter_contrast-gray" 
+                src="./images/fright.png" 
+                alt="Испуганная девушка" />
+              <span 
+                aria-hidden="true" 
+                class="card__label">&lt;CSS&gt;
+              </span>
             </figure>
             <div class="card__content">
               <div class="card__content-text">
@@ -153,8 +164,15 @@
                 <p class="card__paragraph"> Место для ваших воспоминаний об окончании первого спринта.</p>
               </div>
               <div class="card__content-buttons">
-                <button type="button" class="card__icon-button">
-                  <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+                <button type="button" class="card__icon-button" aria-hidden="true">
+                  <svg 
+                    class="like-icon" 
+                    width="39" height="36" 
+                    viewBox="0 0 39 36" 
+                    fill="transparent" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    aria-hidden="true"
+                  >
                     <g clip-path="url(#clip0_0_1575)">
                       <g class="heart">
                         <path
@@ -192,9 +210,16 @@
           <article class="card">
             <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
             <figure class="card__image-wrapper">
-              <!-- фильтр с классом filter-hue-rotate-and-invert можно применить как по заданию-->
-              <img loading="lazy" class="card__image" src="./images/ideal_woman.png" alt="Стремление к идеалу" />
-              <span aria-hidden="true" class="card__label">&lt;desigions&gt;</span>
+              <img 
+                loading="lazy" 
+                class="card__image filter_opacity" 
+                src="./images/ideal_woman.png" 
+                alt="Стремление к идеалу" 
+              />
+              <span 
+                aria-hidden="true" 
+                class="card__label">&lt;desigions&gt;
+              </span>
             </figure>
             <div class="card__content">
               <div class="card__content-text">
@@ -209,7 +234,7 @@
                 </p>
               </div>
               <div class="card__content-buttons">
-                <button type="button" class="card__icon-button">
+                <button type="button" class="card__icon-button" aria-hidden="true">
                   <svg
                     class="like-icon"
                     width="39"
@@ -217,6 +242,7 @@
                     viewBox="0 0 39 36"
                     fill="transparent"
                     xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
                   >
                     <g clip-path="url(#clip0_0_1575)">
                       <g class="heart">
@@ -255,9 +281,16 @@
           <article class="card">
             <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
             <figure class="card__image-wrapper">
-              <!-- фильтр с классом filter-invert-and-saturate можно применить как по заданию-->
-              <img loading="lazy" class="card__image" src="./images/home_work.png" alt="Забота близких"/>
-              <span aria-hidden="true" class="card__label">care</span>
+              <img 
+                loading="lazy" 
+                class="card__image filter_invert" 
+                src="./images/home_work.png" 
+                alt="Забота близких"
+              />
+              <span 
+                aria-hidden="true" 
+                class="card__label">care
+              </span>
             </figure>
             <div class="card__content">
               <div class="card__content-text">
@@ -268,7 +301,7 @@
                 </p>
               </div>
               <div class="card__content-buttons">
-                <button type="button" class="card__icon-button">
+                <button type="button" class="card__icon-button" aria-hidden="true">
                   <svg
                     class="like-icon"
                     width="39"
@@ -276,6 +309,7 @@
                     viewBox="0 0 39 36"
                     fill="transparent"
                     xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
                   >
                     <g clip-path="url(#clip0_0_1575)">
                       <g class="heart">
@@ -316,7 +350,7 @@
             <figure class="card__image-wrapper">
               <img
                 loading="lazy"
-                class="card__image filter-saturate"
+                class="card__image filter_scool"
                 src="./images/tired.png"
                 alt="Опять учеба"
               />
@@ -337,7 +371,7 @@
               </div>
 
               <div class="card__content-buttons">
-                <button type="button" class="card__icon-button">
+                <button type="button" class="card__icon-button" aria-hidden="true">
                   <svg
                     class="like-icon"
                     width="39"
@@ -345,6 +379,7 @@
                     viewBox="0 0 39 36"
                     fill="transparent"
                     xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
                   >
                     <g clip-path="url(#clip0_0_1575)">
                       <g class="heart">
@@ -385,7 +420,7 @@
             <figure class="card__image-wrapper">
               <img
                 loading="lazy"
-                class="card__image filter-invert filter-sepia"
+                class="card__image filter_hand"
                 src="./images/crying.png"
                 alt="Руки опустились"
               />
@@ -408,7 +443,10 @@
               </div>
 
               <div class="card__content-buttons">
-                <button type="button" class="card__icon-button">
+                <button 
+                  type="button" 
+                  class="card__icon-button" 
+                  aria-hidden="true">
                   <svg
                     class="like-icon"
                     width="39"
@@ -416,6 +454,7 @@
                     viewBox="0 0 39 36"
                     fill="transparent"
                     xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
                   >
                     <g clip-path="url(#clip0_0_1575)">
                       <g class="heart">
@@ -454,11 +493,17 @@
           <article class="card">
             <h2 class="card__title">«Сейчас я здесь»</h2>
             <figure class="card__image-wrapper">
-              <!-- фильтр с классом filter-opacity-and-grayscale можно применить как по заданию-->
-              <img loading="lazy" class="card__image" src="./images/final_image.png" alt="Девушка отвернулась к компьютеру"
+              <img 
+                loading="lazy" 
+                class="card__image filter_multiple" 
+                src="./images/final_image.png" 
+                alt="Девушка отвернулась к компьютеру"
               />
-              <span aria-hidden="true" class="card__label"
-                >&lt;experience&gt;</span>
+              <span 
+                aria-hidden="true" 
+                class="card__label"
+                  >&lt;experience&gt;
+              </span>
             </figure>
             <div class="card__content">
               <div class="card__content-text">
@@ -477,7 +522,11 @@
                 </p>
               </div>
               <div class="card__content-buttons">
-                <button type="button" class="card__icon-button">
+                <button 
+                  type="button" 
+                  class="card__icon-button" 
+                  aria-hidden="true"
+                >
                   <svg
                     class="like-icon"
                     width="39"
@@ -485,6 +534,7 @@
                     viewBox="0 0 39 36"
                     fill="transparent"
                     xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
                   >
                     <g clip-path="url(#clip0_0_1575)">
                       <g class="heart">
@@ -520,20 +570,18 @@
           </article>
         </li>
       </ul>
-      <footer class="footer">
-        <button
-          type="button"
-          onclick="window['save-dialog'].showModal()"
-          aria-controls="save-dialog"
-          class="button-save button">
-          <span class="button__text button-save__content">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-              <use class="button-save-svg" href="./svg/disketa.svg#disketa"></use>
-            </svg>
-            Сохранить на память
-          </span>
-        </button>
-      </footer>
+      <button
+        type="button"
+        onclick="window['save-dialog'].showModal()"
+        aria-controls="save-dialog"
+        class="button-save button">
+        <span class="button__text button-save__content">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+            <use class="button-save-svg" href="./svg/disketa.svg#disketa"></use>
+          </svg>
+          Сохранить на память
+        </span>
+      </button>
       <dialog id="save-dialog" class="dialog__save">
         <div class="dialog__content">
           <div class="dialog__content-svg-wrapper">
@@ -555,7 +603,7 @@
         </div>
 
         <button
-          type="submit"
+          type="button"
           onclick="window['save-dialog'].close()"
           class="button dialog__button"
         >

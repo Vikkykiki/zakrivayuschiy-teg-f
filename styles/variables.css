@@ -2,7 +2,7 @@
 :root {
   --main-font: "Inter";
   --accent-font: "PressStart2P";
-  --page-width: clamp(20rem, 13.2143rem + 33.9286vw, 43.75rem);
+  --page-width_cont: clamp(320px, 100%, var(--max-width, 700px));
   --main-font-color: #000;
   /* градиент фон */
   --page-bg:

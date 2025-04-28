@@ -11,7 +11,7 @@
 */
 
 .page__container {
-  inline-size: var(--page-width);
+  inline-size: var(--page-width_cont);
   min-inline-size: 320px;
   margin-inline: auto;
 }
@@ -35,6 +35,7 @@
   font-family: var(--accent-font), sans-serif;
   border: 2px #000 solid;
   text-align: center;
+  inline-size: var(--page-width_cont);
 }
 
 .header__title {
@@ -103,35 +104,41 @@
   aspect-ratio: 1 / 1;
 }
 
-/* фильтры не применяла на свои фото в html примечания где их надо добавить можно*/
-/* .filter-blur-and-sepia {
-  filter: blur(0.2rem) sepia(80%);
-} 
-
-.filter-opacity-and-grayscale {
-  filter: opacity(0.2) grayscale(1);
+.card__image-wrapper {
+    margin: 0;
 }
 
-.filter-opacity-and-blur {
-  filter: opacity(0.2) blur(0.2rem) ;
-} 
-
-.filter-brightness-and-grayscale {
-  filter: brightness(10) grayscale(1);
+.filter_brightness {
+  filter: brightness(130%);
 }
 
-
-.filter-invert-and-saturate {
-  filter: invert(0.8) saturate(160%);
+.filter_saturate {
+  filter:saturate(0.2)
 }
 
-.filter-hue-rotate-and-invert {
-  filter: hue-rotate(30deg) invert(0.8);
+.filter_contrast-gray {
+  filter: hue-rotate(-2deg) saturate(4) brightness(1) contrast(1.2);
 }
 
-.filter-saturate {
-  filter: saturate(160%);
-}*/
+.filter_opacity {
+  filter: hue-rotate(20deg) brightness(1.2) saturate(1);
+}
+
+.filter_invert {
+  filter: invert(1) brightness(0.8);
+}
+
+.filter_scool {
+  filter: sepia(0.8) saturate(.5);
+}
+
+.filter_hand {
+  filter: blur(15px);
+}
+
+.filter_multiple {
+  filter: hue-rotate(95deg) contrast(0.4) saturate(2) blur(1.5px);
+}
 
 .card__label {
   position: absolute;
