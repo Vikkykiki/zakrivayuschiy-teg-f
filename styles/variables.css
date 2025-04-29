@@ -31,7 +31,7 @@
   --header-title-margin-block-end: 20px;
   --header-descr-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   --text-stroke-color: #fff;
-  --save-button-inline-size: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
+  --save-button-inline-size: clamp(320px, 18.4868rem + 2.723vw, 20.9375rem);
   --heart-main-color: #ff0000;
   --heart-contour-color: #000;
   --heart-sparks-color: #ff0000;
